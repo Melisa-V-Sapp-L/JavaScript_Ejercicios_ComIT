@@ -1,0 +1,21 @@
+<script>
+
+var dato = [10,7,21,46,6,2,3,4,5,5];
+var re = 1;
+
+res = producto();
+console.log("Resultado: " + re);
+
+
+function producto() {
+	for (var i=0; i<dato.length; i++) {
+		console.log(dato[i]);
+		//console.log(i);
+		re *= dato[i];
+	}
+	return re;
+}
+
+
+</script>
+

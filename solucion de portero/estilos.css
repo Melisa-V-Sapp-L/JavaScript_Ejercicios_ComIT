@@ -1,0 +1,30 @@
+.visor{
+	width: 90px;
+	height: 20px;
+	margin: 8px;
+}
+.mensaje {
+
+}
+.btnLlamar, .btnBorrar { 
+	width: 60px;
+	margin: 5px;
+	border-radius: 5px;
+}
+.btnLlamar{
+	background-color: green;
+}
+.btnBorrar{
+	background-color: red;
+}
+.btnNro{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	font-size: 20px;
+	margin: 5px;
+}
+.btnNro:hover {
+	background-color: black;
+	color: white;
+}

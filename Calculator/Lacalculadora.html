@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>La Calculadora modalidad pesadilla</title>
+<link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+<section>
+<center>
+<article>
+<input type="number" id="display" placeholder="0" />
+
+
+
+<p>
+<input type="button" value="0" class="number" onclick="ver(this.value)"/>	
+<input type="button" value="1" class="number" onclick="ver(this.value)"/>
+<input type="button" value="2" class="number" onclick="ver(this.value)"/>
+<input type="button" value="3" class="number" onclick="ver(this.value)"/>
+</p>
+
+<p>
+<input type="button" value="4" class="number" onclick="ver(this.value)"/>
+<input type="button" value="5" class="number" onclick="ver(this.value)"/>
+<input type="button" value="6" class="number" onclick="ver(this.value)"/>
+<input type="button" value="+" class="simbol" onclick="simbolo('+')" />
+</p>
+
+<p>
+<input type="button" value="7" class="number" onclick="ver(this.value)"/>
+<input type="button" value="8" class="number" onclick="ver(this.value)"/>
+<input type="button" value="9" class="number" onclick="ver(this.value)"/>
+<input type="button" value="-" class="simbol" onclick="simbolo('-')" />
+</p>
+
+
+<p>
+<input type="button" value="*" class="simbol" onclick="simbolo('*')" />	
+<input type="button" value="/" class="simbol" onclick="simbolo('/')" />
+<input type="button" value="del" class="simbol" onclick="borrar()" />
+<input type="button" value="=" class="simbol" onclick="igual()" />
+</p>
+</article>
+</center>
+</section>
+
+<script src="funcionamiento.js"></script>
+</body>
+</html>

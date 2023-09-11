@@ -1,0 +1,22 @@
+body{
+	font-family: Century Gothic;
+	text-align: center;
+
+}
+
+
+
+section {
+	margin: 2% 2%;
+	padding: 4% 4%;
+}
+
+
+p {
+	flex-direction: column;
+	
+}
+
+
+
+

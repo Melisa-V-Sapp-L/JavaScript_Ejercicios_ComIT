@@ -1,0 +1,66 @@
+  var visorpiso = document.getElementById('visorpiso');
+  var visordepto= document.getElementById('visordepto');
+  var borrar = document.getElementById('borrar');
+  var Llamar = document.getElementById('Llamar');
+ 
+  var uno = document.getElementById('uno');
+  var dos = document.getElementById('dos');
+  var tres = document.getElementById('tres');
+  var cuatro = document.getElementById('cuatro');
+  var cinco = document.getElementById('cinco');
+  var seis = document.getElementById('seis');
+  var siete = document.getElementById('siete');
+  var ocho = document.getElementById('ocho');
+  var nueve = document.getElementById('nueve');
+  var cero = document.getElementById('cero');
+
+  uno.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "1";   
+  }
+  dos.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "2";
+  }
+  tres.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "3";
+  }
+  cuatro.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "4";
+  }
+  cinco.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "5";
+  }
+  seis.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "6";
+  }
+  siete.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "7";
+  }
+  ocho.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "8";
+  }
+  nueve.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "9";
+  }
+  cero.onclick = function(e){
+      visorpiso.textContent = visorpiso.textContent  + "0";
+  }
+
+function ingresar (){
+  var piso;
+  do { p1 = parseInt;} while (p1 >= 5);
+  if (p1 <= 3) {
+    p2 = parseInt;
+    d = parseInt ;
+  } else {
+    if ( p1 = 4) {
+      do {
+        p2 = parseInt ;
+      } while (p2 >= 3);
+    }
+  }
+
+}
+
+
+
+
